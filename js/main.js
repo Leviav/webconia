@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     destinations.forEach(destination => {
         destination.addEventListener('click', function() {
-            alert('Coño esperate, mi mania y yo estamos todavia trabajando en ello.');
+        alert('Coño esperate, mi mania y yo estamos todavia trabajando en ello.');
         });
     });
 });
