@@ -14,22 +14,37 @@ body {
 
 /* Estilo del header */
 header {
-    background: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #b0a8e2;
     padding: 1em 0;
     border-bottom: 1px solid #ddd;
 }
 
-header .logo img {
-    max-width: 100px;
-    display: block;
-    margin: 0 auto;
+header .logo img{
+    max-width: 50px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
 }
-
+.header nav {
+    flex-grow: 1; /* Permite que la navegación ocupe el espacio restante */
+    text-align: center; /* Alinea los enlaces a la derecha */
+}
+header .hero{
+    display:flexbox;
+    align-content:center;
+    font-size: 2em;
+    padding: 0;
+    color: #160438;
+}
 header nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
     margin-top: 1em;
+    margin: 0 10px;
 }
 
 header nav ul li {
@@ -37,11 +52,18 @@ header nav ul li {
 }
 
 header nav ul li a {
-    text-decoration: none;
-    color: #333;
+    /*color: #333;*/
     font-weight: bold;
-}
+    color: rgb(230, 227, 227); 
+    border-color: #333;
+    text-decoration: none;
+    transition: color 0.3s, opacity 0.3s;
+    }
 
+header nav ul li a:hover, .header nav ul li a:focus {
+        color: #160438; /*  */
+        opacity: 1; /* Opacidad completa */
+    }    
 /* Estilo de la sección hero */
 .hero {
     background: url('https://www.civitatis.com/img/sections/hero-bg.jpg') no-repeat center center/cover;
@@ -102,8 +124,56 @@ header nav ul li a {
 
 /* Estilo del footer */
 footer {
-    background: #333;
+    background-color: #333;
     color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: 20px 0;
+    font-size: 0.8em;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: rgba(255, 255, 255, 0.7); /* Blanco con opacidad */
+    text-decoration: none;
+    transition: color 0.3s, opacity 0.3s; /* Suaviza la transición de color y opacidad */
+}
+
+
+.footer-section ul li a:hover, .footer-section ul li a:focus {
+    color: #ffffff; /* Blanco completo cuando se hace hover o focus */
+    opacity: 1; /* Opacidad completa */
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
+
