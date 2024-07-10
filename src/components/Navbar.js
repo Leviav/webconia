@@ -4,21 +4,11 @@ export default function Navbar() {
   return (
     <nav>
       <ul>
-        <li>
-          <Link href="/">
-            Inicio
-          </Link>
-        </li>
-        <li>
-          <Link href="/about">
-            Acerca de
-          </Link>
-        </li>
-        <li>
-          <Link href="/contact">
-            Contacto
-          </Link>
-        </li>
+        <li><Link href="/" legacyBehavior><a>Inicio</a></Link></li>
+        <li><Link href="/about" legacyBehavior><a>Acerca de</a></Link></li>
+        <li><Link href="/contact" legacyBehavior><a>Contacto</a></Link></li>
+        <li><Link href="/services" legacyBehavior><a>Servicios</a></Link></li>
+        <li><Link href="/blog" legacyBehavior><a>Blog</a></Link></li>
       </ul>
       <style jsx>{`
         nav {

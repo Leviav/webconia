@@ -7,7 +7,8 @@ export default function About() {
     <div>
       <Navbar /> 
       <h1>Acerca de Nosotros</h1>
-      <p>Información sobre nuestra empresa.</p>
+      <p>Somos una empresa dedicada a proporcionar las mejores experiencias turísticas.</p>
+      <p>Nuestra misión es ofrecer servicios de alta calidad que superen las expectativas de nuestros clientes.</p>
       <Footer />
     </div>
   );
