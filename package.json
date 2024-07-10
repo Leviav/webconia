@@ -1,0 +1,19 @@
+{
+  "name": "mi_sitio_web",
+  "version": "1.0.0",
+  "description": "primer proyecto sitio web de trisquel tour",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "author": "",
+  "license": "ISC"
+}
