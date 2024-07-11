@@ -8,10 +8,10 @@ export default function Services() {
       <h1>Servicios</h1>
       <p>Ofrecemos una variedad de servicios para satisfacer tus necesidades turísticas:</p>
       <ul>
-        <li>Tours guiados</li>
-        <li>Reservas de hotel</li>
-        <li>Transporte privado</li>
-        <li>Paquetes personalizados</li>
+        <li><a href="/services/tour-guides">Tours guiados</a></li>
+        <li><a href="/services/hotel-reservations">Reservas de Hotel</a></li>
+        <li><a href="/services/private-transport">Transporte Privado</a></li>
+        <li><a href="/services/custom-packages">Paquetes Personalizados</a></li>
       </ul>
       <Footer />
     </div>
