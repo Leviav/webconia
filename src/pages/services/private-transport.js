@@ -8,6 +8,16 @@ export default function PrivateTransport() {
       <h1>Transporte Privado</h1>
       <p>Detalles sobre nuestro servicio de transporte privado...</p>
       <Footer />
+      <style jsx>{`
+        .container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          padding: 20px;
+        }
+      `}</style>
     </div>
   );
 }

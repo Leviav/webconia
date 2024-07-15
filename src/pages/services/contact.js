@@ -22,7 +22,8 @@ export default function Contact () {
                 </div>
                 <button type="submit">Enviar</button>
                 </form>
-                <Footer/>       
+                <Footer/>
+                       
             </div>
         );
 }

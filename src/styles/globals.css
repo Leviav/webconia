@@ -3,9 +3,10 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
 }
 
-h1 {
+h1, h2, h3 {
   color: #333;
 }
 
@@ -14,14 +15,43 @@ p {
   line-height: 1.6;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  background: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
 nav a:hover {
   text-decoration: underline;
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
 }
 
 .footer {
@@ -29,17 +59,15 @@ nav a:hover {
   color: white;
   text-align: center;
   padding: 1rem;
-  position: relative;
-  bottom: 0;
   width: 100%;
-  justify-content: center;  /* Asegura que el contenido del footer esté centrado horizontalmente */
-  align-items: center;  
 }
 
 form {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 100%;
+  max-width: 500px;
 }
 
 form div {
@@ -64,8 +92,21 @@ form button {
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
 
 form button:hover {
   background-color: #555;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
 }
