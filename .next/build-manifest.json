@@ -15,11 +15,6 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -35,15 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/services.js"
     ],
-    "/services/hotel-reservations": [
+    "/services/custom-packages": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/services/hotel-reservations.js"
+      "static/chunks/pages/services/custom-packages.js"
     ],
-    "/services/tour-guides": [
+    "/services/private-transport": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/services/tour-guides.js"
+      "static/chunks/pages/services/private-transport.js"
     ]
   },
   "ampFirstPages": []

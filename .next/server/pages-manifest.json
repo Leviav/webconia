@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/services/hotel-reservations": "pages/services/hotel-reservations.js",
-  "/services/tour-guides": "pages/services/tour-guides.js"
+  "/services/custom-packages": "pages/services/custom-packages.js",
+  "/services/private-transport": "pages/services/private-transport.js"
 }

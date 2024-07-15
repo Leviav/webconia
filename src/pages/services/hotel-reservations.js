@@ -3,10 +3,12 @@ import Footer from '../../components/Footer';
 
 export default function HotelReservations() {
   return (
-    <div className='container'>
+    <div>
       <Navbar />
-      <h1>Reservas de Hotel</h1>
-      <p>Detalles sobre nuestras reservas de hotel...</p>
+      <main className="container">
+        <h1>Reservas de Hotel</h1>
+        <p>Detalles sobre nuestras reservas de hotel...</p>
+      </main>
       <Footer />
       <style jsx>{`
         .container {
@@ -16,8 +18,11 @@ export default function HotelReservations() {
           justify-content: center;
           text-align: center;
           padding: 20px;
+          width: 100%;
+          max-width: 1200px;
         }
       `}</style>
     </div>
   );
 }
+

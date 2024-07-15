@@ -14,11 +14,13 @@ export default function Navbar() {
         nav {
           background: #333;
           padding: 1rem;
+          width: 100%
         }
         ul {
           list-style: none;
           display: flex;
           gap: 1rem;
+
         }
         li {
           margin: 0;

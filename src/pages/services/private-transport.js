@@ -3,10 +3,12 @@ import Footer from '../../components/Footer';
 
 export default function PrivateTransport() {
   return (
-    <div className="container">
+    <div>
       <Navbar />
-      <h1>Transporte Privado</h1>
-      <p>Detalles sobre nuestro servicio de transporte privado...</p>
+      <main className="container">
+        <h1>Transporte Privado</h1>
+        <p>Detalles sobre nuestro servicio de transporte privado...</p>
+      </main>
       <Footer />
       <style jsx>{`
         .container {
@@ -16,6 +18,9 @@ export default function PrivateTransport() {
           justify-content: center;
           text-align: center;
           padding: 20px;
+          width: 100%;
+          max-width: 1200px;
+          box-sizing: border-box;
         }
       `}</style>
     </div>
