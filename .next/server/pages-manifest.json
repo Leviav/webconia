@@ -1,0 +1,19 @@
+{
+  "/_app": "pages/_app.js",
+  "/about": "pages/about.html",
+  "/blog": "pages/blog.html",
+  "/blog/post1": "pages/blog/post1.html",
+  "/blog/post2": "pages/blog/post2.html",
+  "/blog/post3": "pages/blog/post3.html",
+  "/contact": "pages/contact.html",
+  "/": "pages/index.html",
+  "/services": "pages/services.html",
+  "/services/contact": "pages/services/contact.html",
+  "/services/custom-packages": "pages/services/custom-packages.html",
+  "/services/hotel-reservations": "pages/services/hotel-reservations.html",
+  "/services/private-transport": "pages/services/private-transport.html",
+  "/services/tour-guides": "pages/services/tour-guides.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
