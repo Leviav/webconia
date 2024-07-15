@@ -5,27 +5,27 @@ import Review from '../../components/Review';
 
 const tours = {
   1: {
-    name: 'Eiffel Tower Tour',
-    description: 'Visit the Eiffel Tower.',
-    image: '/images/eiffel.jpg',
-    itinerary: 'Start at the base, go to the top, enjoy the view.',
+    name: 'Isla Larga',
+    description: 'Visita esta maravillosa isla del caribe',
+    image: 'https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTua044lVfZmy5YECcBoqHmV6GCUNj5InWcPxsShdPXd5I3H_jUAWLy-RaFZLaFM5qGH83HrHFu_SsxXxdzWja-iLZvilkjrdcJeOtNLg',
+    itinerary: 'Salida desde Bejuma, viaja directo, con toda la logistica preparada para llegar hasta isla larga',
     price: '$50',
-    duration: '2 hours',
+    duration: '12 horas, salida 6:00am llegada 6:00pm',
     reviews: [
-        { user: 'Alice', comment: 'Amazing tour!', rating: 5 },
-        { user: 'Bob', comment: 'Great experience!', rating: 4 },
+        { user: 'Dorenis', comment: "A mi que me encanta viajar y siempre ando buscando en que peligro meterme, recomiendo a esta gente", rating: 5 },
+        { user: 'Mateo', comment: 'Me gusta ir pero mas me gusta jugar maincraft', rating: 2 },
       ]
   },
   2: {
-    name: 'Statue of Liberty Tour',
-    description: 'Visit the Statue of Liberty.',
-    image: '/images/statueofliberty.jpg',
-    itinerary: 'Ferry ride, statue visit, museum tour.',
-    price: '$30',
-    duration: '3 hours',
+    name: 'Colonia tovar',
+    description: 'Visita este maravilloso lugar lleno de fresas con crema',
+    image: 'https://miro.medium.com/v2/resize:fit:828/format:webp/1*6KVk7wsU5ENn8HbYAXA2TQ.jpeg',
+    itinerary: 'salida desde Bejuma, parada en valencia, desayuno, parada para refrescar y paseo por los sitios emblematicos de la Colinia Tovar',
+    price: '$80',
+    duration: '18 horas',
     reviews: [
-        { user: 'Charlie', comment: 'Loved it!', rating: 5 },
-        { user: 'David', comment: 'Very informative.', rating: 4 },
+        { user: 'Levi', comment: 'Antes tenia que manejar todo el camino, pero ahora me pagan por hacerlo', rating: 5 },
+        { user: 'Dora', comment: 'Ay tan bello mi niño chiquitico', rating: 5 },
       ]
   }
 };
@@ -47,9 +47,9 @@ export default function TourDetail() {
           <img src={tour.image} alt={tour.name} />
           <h1>{tour.name}</h1>
           <p>{tour.description}</p>
-          <p><strong>Itinerary:</strong> {tour.itinerary}</p>
-          <p><strong>Price:</strong> {tour.price}</p>
-          <p><strong>Duration:</strong> {tour.duration}</p>
+          <p><strong>Itinerario:</strong> {tour.itinerary}</p>
+          <p><strong>Costo:</strong> {tour.price}</p>
+          <p><strong>Duracion:</strong> {tour.duration}</p>
           <section className="reviews">
             <h2>Opiniones</h2>
             {tour.reviews.map((review, index) => (

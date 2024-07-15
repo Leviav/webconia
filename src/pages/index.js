@@ -10,13 +10,13 @@ export default function Home() {
   const [query, setQuery] = useState('');
   
   const destinations = [
-    { name: 'Paris', description: 'The city of light.', image: '/images/paris.jpg' },
-    { name: 'New York', description: 'The city that never sleeps.', image: '/images/newyork.jpg' },
+    { name: 'Draculandia', description: 'Parque de locos', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4zZtaDdhGA9PevZQeD5TPaGePwUyYzUYRZg&s' },
+    { name: 'La casita de Dora', description: 'Comida gratis', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVo_1B1rH0bHQn2EYBni8a-lEhT0v-T7Vww&s' },
   ];
 
   const tours = [
-    { id: 1, name: 'Eiffel Tower Tour', description: 'Visit the Eiffel Tower.', image: '/images/eiffel.jpg' },
-    { id: 2, name: 'Statue of Liberty Tour', description: 'Visit the Statue of Liberty.', image: '/images/statueofliberty.jpg' },
+    { id: 1, name: 'Isla Larga', description: 'Visita Isla Larga', image: 'https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTua044lVfZmy5YECcBoqHmV6GCUNj5InWcPxsShdPXd5I3H_jUAWLy-RaFZLaFM5qGH83HrHFu_SsxXxdzWja-iLZvilkjrdcJeOtNLg' },
+    { id: 2, name: 'La colonia Tovar', description: 'Viaja con comodidad y confianza a este maravilloso lugar', image: 'https://miro.medium.com/v2/resize:fit:828/format:webp/1*6KVk7wsU5ENn8HbYAXA2TQ.jpeg' },
   ];
 
   const handleSearch = (searchQuery) => {

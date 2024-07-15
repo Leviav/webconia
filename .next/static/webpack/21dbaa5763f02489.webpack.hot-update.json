@@ -1,1 +1,0 @@
-{"c":["webpack"],"r":["pages/index"],"m":["./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fworkspaces%2Fwebconia%2Fsrc%2Fpages%2Findex.js!","./src/components/DestinationCard.js","./src/components/SearchBar.js","./src/components/TourCard.js","./src/pages/index.js"]}
