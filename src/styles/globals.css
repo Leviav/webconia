@@ -106,11 +106,17 @@ form button:hover {
   }
 
   nav {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   nav ul {
-    flex-direction: row;
-    align-items: right;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .ini{
+    padding-top: 1em;
+
   }
 }

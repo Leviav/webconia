@@ -7,7 +7,7 @@ export default function Navbar() {
         <Link href="/"><a>Trisqueltour</a></Link>
       </div>
       <ul>
-        <li><Link href="/" legacyBehavior><a>Inicio</a></Link></li>
+        <li class = "ini"><Link href="/" legacyBehavior><a>Inicio</a></Link></li>
         <li><Link href="/about" legacyBehavior><a>Acerca de</a></Link></li>
         <li><Link href="/contact" legacyBehavior><a>Contacto</a></Link></li>
         <li><Link href="/services" legacyBehavior><a>Servicios</a></Link></li>
